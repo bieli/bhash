@@ -2,7 +2,6 @@ package net.bieli.bhash;
 
 import junit.framework.TestCase;
 
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 public class BHashTest extends TestCase {

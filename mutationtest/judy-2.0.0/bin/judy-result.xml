@@ -5,8 +5,8 @@
   <!-- summary -->
   <summary>
     <date>2013-12-13</date>
-    <time>00:25:26</time>
-    <duration>7,29</duration>
+    <time>01:06:04</time>
+    <duration>11,40</duration>
     <testsCount>1</testsCount>
     <evaluatedClassesCount>3</evaluatedClassesCount>
     <mutatedClassesCount>2</mutatedClassesCount>
@@ -14,7 +14,7 @@
     <allKilledMutantsCount>52</allKilledMutantsCount>
     <allMutantsCount>87</allMutantsCount>
     <testsRuns>88</testsRuns>
-    <testsDuration>6,15</testsDuration>
+    <testsDuration>10,24</testsDuration>
   </summary>
   <!-- mutation operators -->
   <operators>
@@ -287,7 +287,7 @@
   <tests>
     <test>
       <name>net.bieli.bhash.BHashTest</name>
-      <duration>238</duration>
+      <duration>372</duration>
       <result>passed</result>
     </test>
   </tests>

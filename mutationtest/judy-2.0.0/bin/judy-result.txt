@@ -1,13 +1,13 @@
-Fri Dec 13 00:25:26 CET 2013
+Fri Dec 13 01:06:04 CET 2013
 
 Classes:                     : 3
 Score                    [%] : 59,77
   killed mutants             : 52
   all mutants                : 87
-Duration                 [s] : 7,29
-  initial tests duration [s] : 0,39
-  tests duration         [s] : 5,91
-  generation duration    [s] : 2,37
+Duration                 [s] : 11,40
+  initial tests duration [s] : 0,65
+  tests duration         [s] : 9,87
+  generation duration    [s] : 3,44
   initial tests runs         : 3
   tests runs                 : 87
 
@@ -18,4 +18,4 @@ Command:
 --workspace /home/test/workspace/java/bhash/ --classes target/classes --test-classes target/test-classes --killed --threads 4 --debug 
 
 Raw data:
-59,77 52 87 7,29 0,39 5,91 2,37 3 87 
+59,77 52 87 11,40 0,65 9,87 3,44 3 87 

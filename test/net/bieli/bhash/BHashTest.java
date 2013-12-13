@@ -83,4 +83,38 @@ public class BHashTest extends TestCase {
             assertEquals("String index out of range: 3", e.getMessage());
         }
     }
+
+    public void testShouldNotEncodedStringWithNotInjectedPositions() throws Exception {
+        // given
+        String expected = "RDWBECQA";
+        String text = "QWER";
+        BHash bhash = new BHash();
+
+        // positions are generated in BHash object (not injected)
+
+        // when
+        String encoded = bhash.encode(text);
+
+        // then
+        assertFalse(expected == encoded);
+    }
+
+    public void testShouldNotDecodedStringWithInjectedWrongBasePositions() throws Exception {
+        // given
+        String expected = "QWER";
+        String bhashedText = "RDWBECQA";
+        BHash bhash = new BHash();
+
+        Integer base_position = 66;
+        ArrayList<Integer> positions = null;
+
+        bhash.setPositions(positions, base_position);
+
+        // when
+        String decoded = bhash.decode(bhashedText);
+
+        // then
+        assertFalse(expected == decoded);
+    }
+
 }
